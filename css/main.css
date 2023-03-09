@@ -1,1 +1,76 @@
 /* Place CSS styles here */
+.buttons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: aquamarine;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    transition: all .25 ease;
+}
+
+.buttons:hover {
+    color: black;
+    background-color: aquamarine;
+}
+
+.buttons:focus {
+    box-shadow: 0 0 0 4px gray;
+}
+
+.buttons:disabled {
+    color: black;
+    background-color: gray;
+}
+
+.links {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: black;
+    background-color: lightcoral;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all .25 ease;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: lightcoral;
+    background-color: black;
+}
+
+.links:focus {
+    box-shadow: 0 1px 0 4px lightpink;
+}
+
+.links:visited {
+    color: purple
+}
+
+.links:disabled {
+    background-color: gray;
+}
+
+.boxes:hover {
+    background-color:lightsalmon;
+}
+
+.boxes:focus {
+    box-shadow: 0 0 0 3px darkblue;
+}
+
+.boxes:disabled {
+    background-color: gray;
+}
+
+.boxes:invalid {
+    background-color: lightyellow;
+    border:none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}
+
